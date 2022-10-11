@@ -3,7 +3,6 @@
     background-color: var(--color-background);
 }
 
-
 .home-about {
     display: flex;
     width: 100%;
@@ -20,7 +19,7 @@
 
 .home-about-left .area {
     font: 700 1rem Roboto;
-    color: #61ECE3;
+    color: var(--color-green-blue);
 }
 
 .home-about-left h1 {
@@ -39,7 +38,7 @@
     border: none;
     width: 300px;
     padding: 20px 0px;
-    background-color: #61ECE3;
+    background-color: var(--color-green-blue);
     font: 700 1rem Roboto;
     margin-top: 30px;
     border-radius: 10px;
@@ -68,4 +67,87 @@
 
 .div-page img {
     width: 100%;
+}
+
+.home-more-about {
+    width: 100%;
+    margin-top: -10px;
+    background-color: var(--color-second-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.more-about-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font: 400 1.4rem Roboto;
+}
+
+.more-about-left .myphoto {
+    display: flex;
+    width: 230px;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid var(--color-green-blue);
+    border-radius: 50%;
+}
+
+.more-about-left .myphoto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.more-about-left h3 {
+    margin-top: 18px;
+}
+
+.more-about-left .icon-social {
+    margin-top: 18px;
+    width: 74%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.more-about-left .icon-social img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.more-about-right {
+    width: 50%;
+    color: #fff;
+}
+
+.more-about-right .sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.more-about-right .sobre img {
+    margin-right: 10px;
+}
+
+.more-about-right h3 {
+    font: 700 1.4rem Roboto;
+}
+
+.more-about-right h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font: 700 1rem Roboto;
+}
+
+.more-about-right p {
+    margin: 20px 0px;
+    font: 400 1rem Roboto;
 }
