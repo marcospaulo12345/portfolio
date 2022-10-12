@@ -1,0 +1,34 @@
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-background);
+    margin: 0;
+}
+
+.title-skills {
+    display: flex;
+    align-items: center;
+    margin: 52px 0px;
+    color: #fff;
+    font: 700 1.2rem Roboto;
+}
+
+.title-skills img {
+    margin-right: 10px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem auto;
+}
+
+.div-page img {
+    margin-bottom: -10px;
+}

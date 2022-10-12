@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="home-about-left">
                         <p className="area">Desenvolvedor WEB</p>
                         <h1>Marcos Paulo</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Desenvolvedor WEB buscando a primeira oportunidade de mostrar o meu potencial como programador, tenho boa lógica de programação, gosto de trabalho em equipe, estou sempre disposto a aprender novas tecnologias e sou muito dedicado.</p>
                         <button>Baixar Currículo</button>
                     </div>
                     <div className="home-about-right">
@@ -49,8 +49,8 @@ export default function Home() {
                             <h3>Sobre</h3>
                         </div>
                         <h4>Conheça um pouco sobre mim.</h4>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p>Desenvolvedor WEB buscando a primeira oportunidade de mostrar o meu potencial como programador, tenho boa lógica de programação, gosto de trabalho em equipe, estou sempre disposto a aprender novas tecnologias e sou muito dedicado.</p>
+                        <p>Sou estudante de sistemas de informação na UFPI, nela aprendi tudo que sei hoje sobre programação como: lógica, estrutura de dados, POO e vários outros conhecimentos. Além disso, na universidade evolui como pessoa, aprendi a lidar com minha timidez e com o relacionamento entre amigos e colegas.</p>
                     </div>
                 </section>
             </main>

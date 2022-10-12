@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './styles.css'
 
@@ -10,10 +11,26 @@ export default function Headers() {
             </div>
 
             <ul>
-                <li>Home</li>
-                <li>Skils</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <li>
+                    <Link to='/'>
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/skills'>
+                        Skils
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/projects'>
+                        Projetos
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/contact'>
+                        Contato
+                    </Link>
+                </li>
             </ul>
         </header>
     );

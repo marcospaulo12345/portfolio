@@ -25,10 +25,14 @@
 
 .container-header ul li {
     display:inline-block;
-    color: #fff;
-    font: 700 1.2rem Roboto;
     list-style: none;
     cursor: pointer;
+}
+
+.container-header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font: 700 1.2rem Roboto;
 }
 
 .container-header ul li:after {

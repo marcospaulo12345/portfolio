@@ -1,0 +1,19 @@
+.conatiner-card-skill {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conatiner-card-skill h1 {
+    color: #fff;
+    font: 700 1.2rem Roboto;
+    margin-top: 20px;
+}
+
+.conatiner-card-skill p {
+    color: #fff;
+    font: 400 0.8rem Roboto;
+    margin-top: 8px;
+}
