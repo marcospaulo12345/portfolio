@@ -1,27 +1,119 @@
 .container-header {
+    position: fixed;
+    z-index: 1;
     width: 100%;
     display: flex;
     align-items: center;
     padding: 10px 30px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.container-header div h1{
+@media only screen and (min-width: 600px) {
+    .container-header {
+        justify-content: space-between;
+    }
+}
+
+.navbar-overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.is-open-overlayer {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar-overlay {
+        display: none;
+    }
+}
+
+.nav-burger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-burger {
+        display: none;
+    }
+}
+
+.container-header button {
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container-header .logo {
+    margin: 0;
+}
+
+.container-header .logo h1{
     font: 700 1.5rem Roboto;
     color: #fff;
     cursor: pointer;
 }
 
-.container-header div h1 span{
+.container-header .logo h1 span{
     font: 700 1.5rem Roboto;
     color: #61ECE3;
 }
 
 .container-header ul {
-    display: flex;
+    position: fixed;
+    visibility: hidden;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    translate: -100% 0;
     width: 40%;
-    justify-content: space-around;
+    height: 100%;
+    padding: 20px;
+    transition: translate 0.3s;
+    background-color: #000000;
 }
+
+.container-header .is-open-menu {
+    translate: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    visibility: visible;
+}
+
+@media only screen and (min-width: 600px) {
+    .container-header ul {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+        visibility: visible;
+        background: transparent;
+        translate: 0 0;
+        padding: 0px;
+    }
+}
+
 
 .container-header ul li {
     display:inline-block;
