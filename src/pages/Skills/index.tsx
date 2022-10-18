@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Headers from "../../components/Header";
 import CardSkill from "../../components/CardSkill";
@@ -16,6 +16,24 @@ import DivPageImg from '../../assets/images/div-page.png';
 
 
 export default function Skills() {
+
+    function fadeIn() {
+        var items = document.getElementsByClassName('conatiner-card-skill');
+        for (let i = 0; i < items.length; ++i) {
+            setTimeout(() => {
+                items[i].classList.add('fadein')
+            }, i*200)
+        }
+    }
+
+    function teste (item: any, delay: any) {
+        
+      }
+
+    useEffect(() => {
+        fadeIn()
+    }, [])
+
     return (
         <main className="container-skills">
             <Headers />

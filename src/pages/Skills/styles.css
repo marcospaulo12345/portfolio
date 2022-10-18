@@ -32,3 +32,18 @@
 .div-page img {
     margin-bottom: -10px;
 }
+
+.fadein {
+    animation: fadeIn 0.9s;
+    opacity: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(90px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
