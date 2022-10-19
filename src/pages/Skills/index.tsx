@@ -21,7 +21,7 @@ export default function Skills() {
         var items = document.getElementsByClassName('conatiner-card-skill');
         for (let i = 0; i < items.length; ++i) {
             setTimeout(() => {
-                items[i].classList.add('fadein')
+                items[i]?.classList.add('fadein')
             }, i*200)
         }
     }

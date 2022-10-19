@@ -1,0 +1,36 @@
+.card-project {
+    width: 360px;
+    height: 380px;
+    background-color: #2A3445;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-project .card-project-img {
+    height: 220px;  
+}
+
+.card-project .card-project-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.card-project h1 {
+    width: 100%;
+    font: 700 1.4rem Roboto;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.card-project p {
+    width: 100%;
+    font: 400 1rem Roboto;
+    margin-top: 12px;
+    color: #fff;
+}

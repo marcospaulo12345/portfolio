@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import MenuBurger from '../../assets/images/menu.png';
@@ -7,7 +7,21 @@ import './styles.css';
 
 export default function Headers() {
     const [openMenu, setOpenMenu] = useState(false);
-    console.log(openMenu)
+
+    function activeBar() {
+        var navbar = document.querySelector('.container-header');
+        window.onscroll = () => {
+            if (window.scrollY > 50){
+                navbar?.classList.add('nav-active')
+            } else {
+                navbar?.classList.remove('nav-active')
+            }
+        } 
+    }
+
+    useEffect(() => {
+        activeBar();
+    }, [])
 
     return (
         <header className="container-header">
