@@ -8,7 +8,7 @@ import DevelopImg from '../../assets/images/developer.svg';
 import DivPageImg from '../../assets/images/div-page.png';
 import MyPhoto from '../../assets/images/perfil.jpg';
 import IconLinkedin from '../../assets/images/icone-linkedin.png';
-import IconGmail from '../../assets/images/icone-gmail.png';
+import IconWhatsapp from '../../assets/images/whatsapp.png';
 import IconGithub from '../../assets/images/icone-github.png';
 import Pointer from '../../assets/images/pointer.png';
 
@@ -38,7 +38,7 @@ export default function Home() {
                         </div>
                         <h3>Marcos Paulo</h3>
                         <div className="icon-social">
-                            <img src={IconGmail}/>
+                            <img src={IconWhatsapp}/>
                             <img src={IconLinkedin}/>
                             <img src={IconGithub}/>
                         </div>
