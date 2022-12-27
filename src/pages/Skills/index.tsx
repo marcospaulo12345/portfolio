@@ -22,13 +22,9 @@ export default function Skills() {
         for (let i = 0; i < items.length; ++i) {
             setTimeout(() => {
                 items[i]?.classList.add('fadein')
-            }, i*200)
+            }, i * 200)
         }
     }
-
-    function teste (item: any, delay: any) {
-        
-      }
 
     useEffect(() => {
         fadeIn()
@@ -43,39 +39,39 @@ export default function Skills() {
                 <h3>Skills</h3>
             </div>
             <section className="skills">
-                <CardSkill 
-                    text="Consigo desenvolver um sistema básico em React, utilizando os conceitos de rotas, componentes, Hooks, consumo de APIs, entre outros." 
-                    name="React" 
+                <CardSkill
+                    text="Consigo desenvolver um sistema básico em React, utilizando os conceitos de rotas, componentes, Hooks, consumo de APIs, entre outros."
+                    name="React"
                     image={iconReact}
                 />
-                <CardSkill 
-                    text="Conhecimentos básicos em banco de dados, arquitetura MVC, autenticação de usuário com JWT, Sequelize, Promises e Express." 
-                    name="NodeJs" 
+                <CardSkill
+                    text="Conhecimentos básicos em banco de dados, arquitetura MVC, autenticação de usuário com JWT, Sequelize, Promises e Express."
+                    name="NodeJs"
                     image={iconNode}
                 />
-                <CardSkill 
-                    text="Elementos Semânticos, Formes e validação" 
-                    name="HTML" 
+                <CardSkill
+                    text="Elementos Semânticos, Formes e validação"
+                    name="HTML"
                     image={iconHtml}
                 />
-                <CardSkill 
-                    text="Conhecimentos em Margin, Padding, Flexbox, Display, Positioning, Media Queries, etc." 
-                    name="CSS" 
+                <CardSkill
+                    text="Conhecimentos em Margin, Padding, Flexbox, Display, Positioning, Media Queries, etc."
+                    name="CSS"
                     image={iconCss}
                 />
-                <CardSkill 
-                    text="Conhecimentos básico em manipulação de String, Loop, condições, Arrays, DOM, Fech API, entre outros." 
-                    name="Javascript" 
+                <CardSkill
+                    text="Conhecimentos básico em manipulação de String, Loop, condições, Arrays, DOM, Fech API, entre outros."
+                    name="Javascript"
                     image={iconJS}
                 />
-                <CardSkill 
-                    text="Conhecimento básico em python, como: Loop, condições, Arrays, Pandas, Numpy." 
-                    name="Python" 
+                <CardSkill
+                    text="Conhecimento básico em python, como: Loop, condições, Arrays, Pandas, Numpy."
+                    name="Python"
                     image={iconPython}
                 />
             </section>
             <div className="div-page">
-                <img src={DivPageImg}/>
+                <img src={DivPageImg} />
             </div>
         </main>
     );

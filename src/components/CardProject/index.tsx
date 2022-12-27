@@ -4,6 +4,7 @@ interface cardParams {
     image: string
     title: String,
     description: String,
+
 }
 
 import './styles.css';

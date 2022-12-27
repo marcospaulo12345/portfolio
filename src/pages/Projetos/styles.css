@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    min-height: 100%;
     background-color: var(--color-background);
     margin: 0;
 }
@@ -28,3 +29,4 @@
     gap: 3rem;
     margin: 3rem auto;
 }
+

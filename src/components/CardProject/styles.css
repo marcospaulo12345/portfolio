@@ -9,6 +9,7 @@
     padding: 12px 12px;
     border-radius: 8px;
     cursor: pointer;
+    opacity: 0;
 }
 
 .card-project .card-project-img {
@@ -33,4 +34,19 @@
     font: 400 1rem Roboto;
     margin-top: 12px;
     color: #fff;
+}
+
+.fadein {
+    animation: fadeIn 1s;
+    opacity: 1 !important;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(120px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }
